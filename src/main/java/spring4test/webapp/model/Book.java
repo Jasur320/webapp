@@ -7,6 +7,10 @@ import java.util.Set;
 @Entity
 public class Book {
 
+    /**
+     * Change in comment
+     * **/
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
